@@ -433,7 +433,7 @@ module Savon
 
     # Value of the SOAPAction HTTP header.
     def soap_action(soap_action)
-      @options[:soap_action] = soap_action
+      @options[:soap_action] = " "
     end
 
     # Cookies to be used for the next request.
